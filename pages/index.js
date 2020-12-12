@@ -56,7 +56,7 @@ export default function Home() {
       <div className=''>
         <div className='w-4/5 h-72'>
           <img className='' src='/banner.png'></img>
-          <ItemInner id='AboatUs' refs={elAboatUs} name='關於我們' title={data.title} inner={data.inner}></ItemInner>
+          <ItemInner id='AboatUs' name='關於我們' title={data.title} inner={data.inner}></ItemInner>
           <HoriLine></HoriLine>
           <ItemInner id='Develop' title='開發項目'
             inner='我們的開發項目涵蓋多個範疇，能滿足不同客戶的需求，以下為我們的產品︰'
@@ -115,10 +115,10 @@ export default function Home() {
           <p className='my-6 text-md italic text-gray-50'>地域，想像無極限</p>
           <p className='mb-6 text-md italic text-gray-50'>Region, a place to imagine</p>
           <div className='w-full'>
-            <a href='https://company-demo.vercel.app#AboatUs' className='block w-full h-8 border-2 text-center border-red-900 text-white'>關於我們</a>
-            <a href='https://company-demo.vercel.app#Develop' className='block w-full h-8 border-2 text-center border-red-900 text-white'>開發項目</a>
-            <a href='https://company-demo.vercel.app#Partner' className='block w-full h-8 border-2 text-center border-red-900 text-white'>合作夥伴</a>
-            <a href='https://company-demo.vercel.app#ContectUs' className='block w-full h-8 border-2 text-center border-red-900 text-white'>聯絡我們</a>
+            <a href='https://companydemo.vercel.app#AboatUs' className='block w-full h-8 leading-8 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white'>關於我們</a>
+            <a href='https://companydemo.vercel.app#Develop' className='block w-full h-8 leading-8 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white'>開發項目</a>
+            <a href='https://companydemo.vercel.app#Partner' className='block w-full h-8 leading-8 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white'>合作夥伴</a>
+            <a  href='https://companydemo.vercel.app/#ContectUs' className='block w-full leading-8 text-white h-8 bg-green-300  text-center hover:text-green-600 hover:bg-white'>聯絡我們</a>
           </div>
         </div>
       </div>
