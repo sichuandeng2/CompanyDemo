@@ -113,10 +113,10 @@ export default function Home() {
           <p className='my-6 text-md italic text-gray-50'>地域，想像無極限</p>
           <p className='mb-6 text-md italic text-gray-50'>Region, a place to imagine</p>
           <div className='w-full'>
-            <a href='https://companydemo.vercel.app#AboatUs' className='block w-full h-8 leading-8 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white'>關於我們</a>
-            <a href='https://companydemo.vercel.app#Develop' className='block w-full h-8 leading-8 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white'>開發項目</a>
-            <a href='https://companydemo.vercel.app#Partner' className='block w-full h-8 leading-8 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white'>合作夥伴</a>
-            <a  href='https://companydemo.vercel.app/#ContectUs' className='block w-full leading-8 text-white h-8 bg-green-300  text-center hover:text-green-600 hover:bg-white'>聯絡我們</a>
+            <a href='https://companydemo-lers5fvg9.vercel.app/#AboatUs' className='block w-full h-8 leading-8 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white'>關於我們</a>
+            <a href='https://companydemo-lers5fvg9.vercel.app/#Develop' className='block w-full h-8 leading-8 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white'>開發項目</a>
+            <a href='https://companydemo-lers5fvg9.vercel.app/#Partner' className='block w-full h-8 leading-8 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white'>合作夥伴</a>
+            <a  href='https://companydemo-lers5fvg9.vercel.app//#ContectUs' className='block w-full leading-8 text-white h-8 bg-green-300  text-center hover:text-green-600 hover:bg-white'>聯絡我們</a>
           </div>
         </div>
       </div>
