@@ -8,10 +8,7 @@ import HoriLine from '../components/HoriLine'
 
 
 export default function Home() {
-
-const elAboatUs = useRef(null);
-console.log(elAboatUs.current)
-
+  
   let data ={
     title:'電子互動產品、軟件及系統開發',
     inner:'我們是一間資訊科技公司，致力研發新穎的電子互動裝置與物聯網相關設備，專注開發各項軟件、系統和產品，曾與不同的學校、公司及政府部門合作，因此具有豐富的經驗，歡迎有意合作者與我們洽談。'
@@ -59,7 +56,7 @@ console.log(elAboatUs.current)
       <div className=''>
         <div className='w-4/5 h-72'>
           <img className='' src='/banner.png'></img>
-          <ItemInner id='AboatUs' ref={elAboatUs} name='關於我們' title={data.title} inner={data.inner}></ItemInner>
+          <ItemInner id='AboatUs' refs={elAboatUs} name='關於我們' title={data.title} inner={data.inner}></ItemInner>
           <HoriLine></HoriLine>
           <ItemInner id='Develop' title='開發項目'
             inner='我們的開發項目涵蓋多個範疇，能滿足不同客戶的需求，以下為我們的產品︰'
@@ -118,10 +115,10 @@ console.log(elAboatUs.current)
           <p className='my-6 text-md italic text-gray-50'>地域，想像無極限</p>
           <p className='mb-6 text-md italic text-gray-50'>Region, a place to imagine</p>
           <div className='w-full'>
-            <a href='http://localhost:3000#AboatUs' className='block w-full h-8 border-2 text-center border-red-900 text-white'>關於我們</a>
-            <a href='http://localhost:3000#Develop' className='block w-full h-8 border-2 text-center border-red-900 text-white'>開發項目</a>
-            <a href='http://localhost:3000#Partner' className='block w-full h-8 border-2 text-center border-red-900 text-white'>合作夥伴</a>
-            <a  href='http://localhost:3000#ContectUs' className='block w-full h-8 border-2 text-center border-red-900 text-white'>聯絡我們</a>
+            <a href='https://company-demo.vercel.app#AboatUs' className='block w-full h-8 border-2 text-center border-red-900 text-white'>關於我們</a>
+            <a href='https://company-demo.vercel.app#Develop' className='block w-full h-8 border-2 text-center border-red-900 text-white'>開發項目</a>
+            <a href='https://company-demo.vercel.app#Partner' className='block w-full h-8 border-2 text-center border-red-900 text-white'>合作夥伴</a>
+            <a href='https://company-demo.vercel.app#ContectUs' className='block w-full h-8 border-2 text-center border-red-900 text-white'>聯絡我們</a>
           </div>
         </div>
       </div>
