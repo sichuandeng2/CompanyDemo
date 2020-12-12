@@ -3,9 +3,7 @@ import ItemInner from '../components/ItemInner'
 import DevelopInfo from '../components/DevelopInfo'
 import Teamwork from '../components/Teamwork'
 import Address from '../components/Address'
-import {useRef} from 'react'
 import HoriLine from '../components/HoriLine'
-
 
 export default function Home() {
   
