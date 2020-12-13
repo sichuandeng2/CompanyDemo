@@ -8,7 +8,7 @@ let Teamwork =  ({teamwork})=>{
                     <Link href={item.href} >
                         <a className='flex items-end w-72 h-16'>
                             <img width='36px' height='24px'  src={item.src}></img>
-                            <p>{item.name}</p>
+                            <div>{item.name}</div>
                         </a>
                     </Link>
                     </div>

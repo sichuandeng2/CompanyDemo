@@ -1,8 +1,10 @@
-export default ({src,inner})=>{
+import custemStyle from '../style/index.module.css'
+let Address= ({src,inner})=>{
     return (
-        <div className='flex items-center w-3/4 mx-auto my-6'>
+        <div className={custemStyle.address}>
             <img width='60px' height='60px' src={src}></img>
             <p className='text-2xl text-green-300'>{inner}</p>
         </div>
     )
 }
+export default Address
