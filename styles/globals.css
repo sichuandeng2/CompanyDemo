@@ -24,6 +24,6 @@
     @apply fixed top-0 right-0 flex flex-col items-center w-1/5 h-screen bg-green-300
   }
   .menuItem {
-    @apply block w-full h-10 leading-10 text-white bg-green-300 text-center hover:text-green-600 hover:bg-white
+    @apply block w-full h-10 leading-10 text-white bg-green-300 text-center 
   }
 }
