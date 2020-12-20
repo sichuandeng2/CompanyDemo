@@ -1,9 +1,9 @@
 @layer base {
     
     .address {
-        @apply w-3/4 flex items-center mx-auto my-6
+        @apply w-3/4 flex items-center mx-auto mb-6
     }
     .title {
-        @apply w-3/4 mx-auto my-6
+        @apply w-3/4 mx-auto 
     }
 }

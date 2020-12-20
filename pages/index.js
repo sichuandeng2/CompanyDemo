@@ -17,7 +17,7 @@ export default function Home() {
     color:'rgb(110,231,183)',
     backgroundColor:'white'
   }
-   const [aboat,setAboat] = useState(null);
+   const [aboat,setAboat] = useState(true);
    const [Develop,setDevelop] = useState(null);
    const [Partner,setPartner] = useState(null);
    const [ContectUs,setContectUs] = useState(null);
@@ -51,12 +51,8 @@ export default function Home() {
     let min = el.offsetTop;
     let max = el.offsetHeight+el.offsetTop;
     let state
-    if(window.scrollY >= min && window.scrollY < max)
-    {
-      state=true
-    }else {
-      state=false
-    }
+    if(window.scrollY >= min && window.scrollY < max) state=true
+    else state=false
     return state
   }
   
@@ -66,12 +62,12 @@ export default function Home() {
         <title>地域電腦有限公司</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='con'>
+      <div >
         {/* 主题内容 */}
-        <div className='w-4/5 h-72'>
+        <div className='lg:w-4/5 h-72 md:w-full sm:w-full '>
           <div id='AboatUs'>
-            <img  className='' src='/banner.png'></img>
-            <ItemInner   name='關於我們' title={data.title} inner={data.inner}></ItemInner>
+            <img src='/banner.png'></img>
+            <ItemInner name='關於我們' title={data.title} inner={data.inner}></ItemInner>
             <HoriLine></HoriLine>
           </div>
           <div id='Develop' >
@@ -104,7 +100,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='menu'>
+        <div className='lg:w-1/5 md:hidden sm:hidden lg:fixed lg:top-0 lg:right-0 lg:flex lg:flex-col lg:items-center lg:h-screen lg:bg-green-300'>
           <div className='my-8'>
             <img src='/logo.png' width='120px' height='120px'></img>
           </div>
